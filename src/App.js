@@ -1,13 +1,18 @@
 /** @format */
 
+import { Component } from 'react';
 import './App.css';
+import Calculator from './components/Calulator';
 
-function App() {
-	return (
-		<div className='App'>
-			<header className='App-header'></header>
-		</div>
-	);
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+
+  render() {
+    return <Calculator />;
+  }
 }
 
 export default App;
