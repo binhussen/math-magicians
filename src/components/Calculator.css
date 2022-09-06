@@ -1,0 +1,40 @@
+/** @format */
+
+.calculator {
+	margin: 10rem;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.two-cell {
+	grid-column: span 2;
+}
+
+.four-cell {
+	grid-column: span 4;
+}
+
+.key {
+	background: #e6e4e4;
+	border: 2px solid #cecdcd;
+	cursor: pointer;
+}
+
+.operator {
+	background-color: #ff9832;
+}
+
+.result {
+	background-color: #858694;
+	border: 2px solid #cecdcd;
+	color: #fff;
+	text-align: right;
+	padding: 0 10px;
+}

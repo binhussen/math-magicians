@@ -1,6 +1,7 @@
 /** @format */
 
 import { Component } from 'react';
+import './Calculator.css';
 
 class Calculator extends Component {
   constructor(props) {
