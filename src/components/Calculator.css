@@ -25,6 +25,7 @@
   background: #e6e4e4;
   border: 2px solid #cecdcd;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .operator {
@@ -36,5 +37,6 @@
   border: 2px solid #cecdcd;
   color: #fff;
   text-align: right;
-  padding: 0 10px;
+  padding: 10px;
+  font-size: 24px;
 }
