@@ -34,7 +34,7 @@ class Calculator extends Component {
      <div className="calculator">
        <div className="box">
          <div className="result four-cell" onChange={this.handleClick}>
-           {total}
+           {total ?? 0}
            {operation}
            {next}
          </div>
