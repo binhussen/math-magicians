@@ -34,7 +34,7 @@ class Calculator extends Component {
      <div className="calculator">
        <div className="box">
          <div className="result four-cell" onChange={this.handleClick}>
-           {total ?? 0}
+           {total}
            {operation}
            {next}
          </div>
@@ -52,7 +52,7 @@ class Calculator extends Component {
            className="key operator"
            onClick={this.handleKeyPress}
          >
-           /
+           ÷
          </button>
          <button type="button" className="key" onClick={this.handleKeyPress}>
            7
@@ -68,7 +68,7 @@ class Calculator extends Component {
            className="key operator"
            onClick={this.handleKeyPress}
          >
-           *
+           x
          </button>
          <button type="button" className="key" onClick={this.handleKeyPress}>
            4
