@@ -1,0 +1,38 @@
+.header{
+  width: 100vw;
+    position: fixed;
+    top: 0px;
+    padding: 1rem 0px;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title{
+  font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.navbar {
+  list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+}
+
+.nav-item {
+      padding: 1rem;
+    font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #495057;
+}
+
+.nav-item > a:hover {
+  color: rgb(54, 54, 54);
+}

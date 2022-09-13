@@ -4,8 +4,8 @@ import './Home.css';
 
 const Home = () => (
   <section>
-    <h2>Welcome to our Page!</h2>
-    <p>
+    <h2 className="heading">Welcome to our Page!</h2>
+    <p className="content">
       Lorem Ipsum is simply dummy text of the printing and typesetting
       industry. Lorem Ipsum has been the industrys standard dummy text ever
       since the 1500s, when an unknown printer took a galley of type and
@@ -16,7 +16,7 @@ const Home = () => (
       with desktop publishing software like Aldus PageMaker including versions
       of Lorem Ipsum.
     </p>
-    <p>
+    <p className="content">
       Lorem Ipsum is simply dummy text of the printing and typesetting
       industry. Lorem Ipsum has been the industrys standard dummy text ever
       since the 1500s, when an unknown printer took a galley of type and
