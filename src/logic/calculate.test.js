@@ -39,4 +39,13 @@ describe("Testing calculations", () => {
 
       expect(result.total).toBe('20');
   })
+
+  it('4. Testing divide by zero error', () => {
+    let result = calculate(obj, '4');
+    result = calculate(result, '÷');
+    result = calculate(result, '0');
+    result = calculate(result, '=');
+
+    expect(result.total).toBe("Can't divide by 0.");
+  });
 });
