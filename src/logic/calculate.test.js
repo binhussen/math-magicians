@@ -14,4 +14,15 @@ describe("Testing calculations", () => {
 
       expect(result.total).toBe('5');
   });
+
+  it('2. Testing multiplication', () => {
+      let result = calculate(obj, '5');
+      result = calculate(result, '0');
+      result = calculate(result, 'x');
+      result = calculate(result, '2');
+      result = calculate(result, '5');
+      result = calculate(result, '=');
+
+      expect(result.total).toBe('1250');
+  });
 });
