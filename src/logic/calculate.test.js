@@ -25,4 +25,18 @@ describe("Testing calculations", () => {
 
       expect(result.total).toBe('1250');
   });
+
+  it('3. Testing consequetive operations', () => {
+      let result = calculate(obj, '4');
+      result = calculate(result, '5');
+      result = calculate(result, '-');
+      result = calculate(result, '1');
+      result = calculate(result, '5');
+      result = calculate(result, '-');
+      result = calculate(result, '1');
+      result = calculate(result, '0');
+      result = calculate(result, '=');
+
+      expect(result.total).toBe('20');
+  })
 });
