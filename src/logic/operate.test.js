@@ -1,4 +1,4 @@
-import operate from "./operate";
+import operate from './operate';
 
 describe('Testing the operate component:', () => {
   it('1. Testing addition:', () => {
@@ -10,6 +10,6 @@ describe('Testing the operate component:', () => {
   });
 
   it('3. Test not an operation error:', () => {
-    expect(() => {operate(10, 0, '*')}).toThrow(Error);
+    expect(() => { operate(10, 0, '*'); }).toThrow(Error);
   });
 });
