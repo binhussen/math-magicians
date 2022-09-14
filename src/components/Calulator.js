@@ -26,7 +26,8 @@ const Calculator = () => {
   };
   const { total, next, operation } = calcState;
   return (
-    <div className="calculator">
+    <section className="section calculator">
+      <h2 className="heading">Let&apos;s do some math!</h2>
       <div className="box">
         <div className="result four-cell" onChange={handleResult}>
           {total}
@@ -115,7 +116,7 @@ const Calculator = () => {
           =
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 export default Calculator;
