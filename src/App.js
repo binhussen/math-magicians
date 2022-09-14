@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calulator';
 import Home from './components/Home';
 import Quote from './components/Quote';
 import Header from './components/Header';
+import Calculator from './components/Calculator';
 
 const App = () => (
   <div className="main">
