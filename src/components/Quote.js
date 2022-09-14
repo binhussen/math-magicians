@@ -1,9 +1,5 @@
-/** @format */
-
-import './Quote.css';
-
 const Quote = () => (
-  <section>
+  <section className="section">
     <h2 className="heading">Quote of the Day</h2>
     <p className="content">
       Mathematics is not about numbers, equations, computations, or

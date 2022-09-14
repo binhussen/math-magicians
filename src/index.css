@@ -7,8 +7,5 @@
 
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
+  color: #495057;
 }

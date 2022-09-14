@@ -1,9 +1,5 @@
-/** @format */
-
-import './Home.css';
-
 const Home = () => (
-  <section>
+  <section className="section">
     <h2 className="heading">Welcome to our Page!</h2>
     <p className="content">
       Lorem Ipsum is simply dummy text of the printing and typesetting

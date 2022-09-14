@@ -1,1 +1,22 @@
 /** @format */
+.section {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.content {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem;
+}
