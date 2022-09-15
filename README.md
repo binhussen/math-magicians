@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-> Coming soon ...
+Live Demo [here](https://magicians-math.netlify.app/)
 
 
 ## Built With
@@ -109,4 +109,4 @@ Give a ⭐️ if you like this project!
 
   
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
